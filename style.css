@@ -1,0 +1,53 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: grey;
+}
+
+.container {
+height: 85%;
+width: 70%;
+background-color: white;
+
+}
+
+header {
+    height: 12%;
+    display: flex;
+}
+
+.card {
+    height: 88%;
+    display: flex;
+}
+
+
+.info {
+    width: 45%;
+}
+
+.image {
+    width: 55%;
+    background: url(images/product.jpg) center/ cover, no-repeat;
+    height: 100%;
+}
+
+
+form label {
+    display: block;
+
+}
