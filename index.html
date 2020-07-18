@@ -8,29 +8,52 @@
 </head>
 <body>
 <div class="container">
+
+<!-- header start -->
     <header>
+        <div id="nav">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
         <div class="brand"></div>
+        <div id="card"><h5> CART </h5> <sup>1</sup> </div>
     </header>
-    <div class="card">
+<!-- header end -->
+
+<!-- main start -->
+    <div class="main">
         <div class="info">
-            <div class="content">
-                <h2>T-SHIRT WITH SLOGAN</h2>
+            <div class="product-info">
+                <h1>T-SHIRT WITH SLOGAN</h1>
                 <p>Short sleeve T-shirt a round neckline and a contrast font print</p>
-                <h4>$44.00</h4>
+                <h3>$44.00</h3>
                 <form action="">
-                    <label for="color & size">
-                        <input type="text" name="size" id="size">
+                    <div class="sizecolor">
+                    <label for="size">
+                        <h5>SIZE</h5>
+                        <input type="color" name="size" id="size">
+                    </label>
+                    <label for="color">
+                        <h5>COLOR</h5>
                         <input type="color" name="color" id="color">
                     </label>
-                    <label for="Quanitiy">
-                        <input type="number" name="Quanitiy" id="Quanitiy">
-                    </label>
-                    <button type="submit">ADD TO CART</button>
+                </div>
+                <div class="line"></div>
+
+                <div class="qntt">
+                        <button id="moin">-</button>
+                        <input type="number" name="Quanitiy" id="Quanitiy" value="1">
+                        <button id="plus">+</button>
+                </div>
+                
+                    <button id="addtocart" type="submit">ADD TO CART</button>
                 </form>
             </div>
         </div>
-        <div class="image"></div>
+        <div class="product-image"></div>
     </div>
+<!-- main end -->
 </div>
 </body>
 </html>

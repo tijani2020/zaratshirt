@@ -15,39 +15,193 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: grey;
+    background: linear-gradient(to left bottom, #9C9B9B, #ECE9E6);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
 height: 85%;
 width: 70%;
 background-color: white;
+box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.05);
 
 }
 
+/* -------- header start -------- */
 header {
     height: 12%;
     display: flex;
+    align-items: center;
+    position: relative;
 }
 
-.card {
+#nav {
+    position: absolute;
+    left: 6.75%;
+}
+
+#nav div {
+    background-color: black;
+    height: 2.5px;
+    margin: 4.5px;
+    width: 25px;
+}
+
+.brand {
+    background: url(images/Zara.png) center/ cover , no-repeat;
+    height: 15px;
+    width: 60px;
+    left: 45%;
+    position: absolute;
+}
+
+#card {
+    position: absolute;
+    right: 6.75%;
+    display: flex;
+    
+}
+
+#card sup {
+    background-color: #f4b69c;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 7px;
+    
+}
+
+/* -------- header end -------- */
+
+
+/* -------- main start -------- */
+.main {
     height: 88%;
     display: flex;
 }
 
 
 .info {
-    width: 45%;
+    width: 45%;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.image {
+.info .product-info {
+width: 70%;
+height: 75%;
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+}
+.info .product-info h1 {
+    font-weight: 900;
+}
+.info .product-info h3 {
+    color: #f4b69c;
+}
+
+.info .product-info p {
+    color: #9C9B9B;
+}
+
+
+.product-image {
     width: 55%;
     background: url(images/product.jpg) center/ cover, no-repeat;
     height: 100%;
 }
 
 
+
 form label {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
 }
+
+
+#Quanitiy {
+    text-align: center;
+}
+
+#addtocart {
+    height: 50px;
+    width: 100%;
+    background-color: #f4b69c;
+    color: white;
+    border: none;
+    font-weight: 800;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.sizecolor,
+.qntt {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    
+}
+
+.sizecolor h5 {
+    color: black !important;
+}
+
+form input {
+    border: none;
+    background: none;
+}
+
+form input:focus {
+    outline: none;
+}
+
+.qntt button {
+    background: none;
+    border: none;
+}
+
+#color {
+width: 20px;
+margin-left: 15px;
+
+}
+
+#size {
+width: 20px;
+margin-left: 15px;
+}
+
+.line {
+    background-color: #ece9e6a9;
+    height: 2px;
+    width: 100%;
+    margin-left: 0px;
+}
+
+form div {
+    margin: 10px;
+}
+
+.qntt input,
+.qntt button {
+    font-size: 15px;
+    font-weight: 700;
+    outline: none;
+    width: 30px;
+}
+
+/* -------- main end -------- */
+
+
+/* ------- responsive ------- */
+
+
+
+@media 
