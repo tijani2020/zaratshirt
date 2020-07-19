@@ -174,9 +174,18 @@ margin-left: 15px;
 
 }
 
-#size {
+#size,#color {
 width: 20px;
 margin-left: 15px;
+outline: none;
+border: none;
+}
+
+#blackcl {
+    background-color: black;
+}
+#graycl {
+    background-color: gray;
 }
 
 .line {
