@@ -149,7 +149,7 @@ flex-direction: column;
 
 
 .product-image {
-    background: url(images/product.jpg) center/ cover, no-repeat;
+    background: url(images/product.webp) center/ cover, no-repeat;
     height: 400px;
 }
 
