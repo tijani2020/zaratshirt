@@ -78,12 +78,13 @@ header {
 #navigation {
     position: absolute;
     background-color: white;
-    height: 88%;
-    width: 45%;
+    height: 92vh;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     visibility: hidden;
+    border-top: 1px rgb(180, 172, 172) solid;
 
     
 
@@ -216,13 +217,6 @@ outline: none;
 border: none;
 }
 
-#blackcl {
-    background-color: black;
-}
-#graycl {
-    background-color: gray;
-}
-
 .line {
     background-color: #ece9e6a9;
     height: 2px;
@@ -288,6 +282,9 @@ form div {
     .product-image {
         width: 55%;
         height: 100%;
+    }
+    #navigation {
+        height: 88%;
     }
 }
 
