@@ -186,8 +186,9 @@ form label {
     
 }
 
-.sizecolor h5 {
+.sizecolor p {
     color: black !important;
+    font-weight: bold;
 }
 
 form input {
