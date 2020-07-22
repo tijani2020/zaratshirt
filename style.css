@@ -186,11 +186,6 @@ form label {
     
 }
 
-.sizecolor p {
-    color: black !important;
-    font-weight: bold;
-}
-
 form input {
     border: none;
     background: none;
